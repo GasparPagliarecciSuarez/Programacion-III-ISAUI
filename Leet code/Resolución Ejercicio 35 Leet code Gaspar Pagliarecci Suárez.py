@@ -32,7 +32,7 @@ def searchInsert(nums, target):
         if ListaOrdenada[i] == target:
             return i
         elif ListaOrdenada[i] > target:
-            return i
+            return i 
         elif ListaOrdenada[i] < target and i == len(ListaOrdenada) - 1:
             return i + 1
     return len(ListaOrdenada)
@@ -41,6 +41,6 @@ def searchInsert(nums, target):
 # Ejemplo de uso
 
 nums = [1, 3, 5, 6]
-target = 4
+target = 2
 resultado = searchInsert(nums, target)
 print(f"El resultado es: {resultado}")  
